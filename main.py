@@ -17,7 +17,7 @@ def is_valid_snils(snils):
     else:
         return check_digit == calculated_check_digit % 101
 
-input_snils = input("Введите СНИЛС: ")
+input_snils = input("Введите  СНИЛС: ")
 if is_valid_snils(input_snils):  # Проверяем введенный СНИЛС на валидность
     print("СНИЛС введен верно")
 else:
